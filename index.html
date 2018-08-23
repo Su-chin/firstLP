@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
 <head>
+
     <meta charset="utf-8">
-    <meta name="description" content="検索のときにスニペットが出る80文字から200ほどにする">
-    <meta name="keywords" content="検索クエリを入れる意味は薄い">
+    <!--公開前に検索エンジンにインデックスされないようにする-->
+    <meta name="robots" content="noindex, nofollow">
+    <!--IEで常に標準モードで表示させる-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--画面サイズ調整-->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--title&説明-->
     <title>FirstLP</title>
+    <meta name="description" content="検索のときにスニペットが出る80文字から200ほどにする">
+    <!-- faviconの指定 -->
+    <link rel="icon" href="favicon.ico">
+
+    <meta name="keywords" content="検索クエリを入れる意味は薄い">
+
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -15,6 +27,7 @@
 </header>
 <main>
     <article>
+        <!--見出しが無いのならdivタグのほうがいいかも-->
         <section>
             <h1>メインビジュアル</h1>
             <h2>h2</h2>

@@ -1,4 +1,32 @@
-section h1 {
-  color: red; }
+.header {
+  width: 100%;
+  height: 100px; }
+
+.company {
+  color: red;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative; }
+  .company .company-logo {
+    width: auto;
+    display: flex;
+    margin: 0; }
+  .company .company-set {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0; }
+  .company .company-set-name {
+    font-size: 20px;
+    margin: 0; }
+  .company .company-set-tel {
+    font-size: 20px;
+    margin: 0; }
+
+.visual-image {
+  height: 400px;
+  background-image: url(../img/visual-image1.jpg);
+  background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */

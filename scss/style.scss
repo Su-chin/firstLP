@@ -1,0 +1,53 @@
+.header {
+  width: 100%;
+  height: 100px;
+}
+
+.company {
+  color: red;
+  font-size: 1rem;
+  display: flex;
+  //position: fixed;
+  justify-content: space-between;
+  position: relative;
+  //flex-direction: column;
+
+  .company-logo {
+    //float:left;
+    width: auto;
+    display: flex;
+    margin: 0;
+  }
+
+  .company-set {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .company-set-name {
+    font-size: 20px;
+    margin: 0;
+    //float: right;
+    //display: flex;
+    //margin: 0;
+  }
+
+  .company-set-tel {
+    font-size: 20px;
+    margin: 0;
+    //float: right;
+    //display: flex;
+  }
+}
+
+.global-visual {
+
+}
+
+.visual-image {
+  height: 400px;
+  background-image: url(../img/visual-image1.jpg);
+  background-size: cover;
+}
